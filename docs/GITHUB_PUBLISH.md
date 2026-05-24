@@ -67,6 +67,7 @@ git push -u origin main
 1. 进入仓库 **Settings** → **General** → **Features**
 2. 勾选 **Issues**
 3. 可选：启用 **Issues templates**，确认「购买咨询」模板可用
+4. 确认 README 已说明：**无标准客服，所有消息通过 Issue 留言处理**
 
 验证：访问  
 `https://github.com/YOUR_GITHUB_USER/loti-flutter-sight-singing-plugin/issues/new/choose`  
@@ -88,7 +89,7 @@ git push -u origin main
 
 - 添加 GitHub Actions 运行 `flutter test`（占位工程通过后可在 README 加 CI Badge）
 - 创建 Release `v0.0.1-preview` 并附 CHANGELOG 摘要
-- 在 README 购买章节补充商务邮箱（若已有固定邮箱）
+- 在 README 购买章节确认 Issue 为唯一联络方式（不设商务邮箱）
 
 ---
 

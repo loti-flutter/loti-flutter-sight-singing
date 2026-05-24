@@ -34,6 +34,8 @@ flutter run
 | 文档 | 说明 |
 |------|------|
 | [../README.md](../README.md) | 产品主页、快速预览、购买流程 |
+| [../docs/USAGE.md](../docs/USAGE.md) | 使用说明、参数设置与音乐术语 |
+| [../docs/ISSUES_QA.md](../docs/ISSUES_QA.md) | 社区问答（Issue 精选） |
 | [../docs/PRICING.md](../docs/PRICING.md) | 详细定价、收款与 FAQ |
 | [../docs/ROADMAP.md](../docs/ROADMAP.md) | 能力路线图 |
 
@@ -42,7 +44,7 @@ flutter run
 ## 购买与咨询
 
 - 扫码付款说明见示例 App 内页或 [定价文档](../docs/PRICING.md)
-- GitHub Issues：[提交购买咨询](https://github.com/loti-edu/loti-flutter-sight-singing-plugin/issues/new?template=purchase.yml)
+- **唯一联络方式**：[GitHub Issues 留言](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues)（[购买咨询模板](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues/new?template=purchase.yml)）
 
 ---
 

@@ -8,7 +8,7 @@
 [![License](https://img.shields.io/badge/License-Commercial-red)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-0.0.1--preview-lightgrey)](pubspec.yaml)
 
-[版本与定价](#版本与定价) · [购买方式](#购买方式) · [路线图](docs/ROADMAP.md) · [详细定价页](docs/PRICING.md)
+[版本与定价](#版本与定价) · [购买方式](#购买方式) · [使用说明](docs/USAGE.md) · [社区问答](docs/ISSUES_QA.md) · [路线图](docs/ROADMAP.md) · [详细定价页](docs/PRICING.md)
 
 </div>
 
@@ -93,7 +93,7 @@ final status = await plugin.getStatus();
 ![Loti 视唱插件 · 扫码付款](docs/assets/payment-qr.png)
 
 **收款名称：loti科技插件** · 编号 `No.EQR1702454`  
-客服电话：**952005**
+嘉联通道：**952005**（仅支付异常咨询，非 Loti 产品售后）
 
 </div>
 
@@ -103,20 +103,22 @@ final status = await plugin.getStatus();
 | **收款名称** | loti科技插件 |
 | **收款编号** | `No.EQR1702454` |
 | **支持方式** | 微信支付 · 支付宝 · 银联 · 云闪付 |
-| **客服电话** | 952005 |
+| **嘉联通道电话** | 952005（支付问题专用，非产品客服） |
 
 **付款备注建议：** `Loti视唱插件-版本名-联系人-手机号`  
 （例如：`Loti视唱插件-年度授权-张三-138xxxx8888`）
 
 > 收款主体：**杭州数掌科技有限公司**。请仅通过本仓库展示的官方二维码付款，勿向个人账号转账。
 
-### 2. 发送付款凭证
+### 2. 提交付款凭证（GitHub Issue 留言）
 
-付款完成后，请将以下信息发送至商务邮箱（请替换为您的实际邮箱并在 Issue 中留言获取最新联系方式）：
+付款完成后，请 **[提交购买咨询 Issue](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues/new?template=purchase.yml)**，在留言中附上：
 
 - 付款截图（含金额、时间、收款名称）
 - 所需版本（测试版 / 年度授权 / 源码交付）
 - 公司或个人名称、联系人、邮箱、电话
+
+> Loti **不设商务邮箱或电话客服**，购买确认与交付进度 **均在本 Issue 回复**。
 
 ### 3. 交付
 
@@ -131,6 +133,8 @@ loti_flutter_sight_singing_plugin/
 ├── lib/                    # 插件 Dart API（当前为占位）
 ├── example/                # 示例 App（产品介绍页）
 ├── docs/
+│   ├── USAGE.md            # 使用说明与参数参考（音乐专业术语）
+│   ├── ISSUES_QA.md        # 社区问答（模拟 Issue 精选）
 │   ├── PRICING.md          # 定价与收款（详细版）
 │   └── ROADMAP.md          # 能力路线图
 ├── android/ ios/ web/      # 插件平台壳
@@ -149,17 +153,20 @@ loti_flutter_sight_singing_plugin/
 3. 嵌入视唱页面或调用插件 API  
 4. 按机构需求配置主题、曲目来源与打分策略  
 
+**完整参数说明**（音高检测、MIDI、打分阈值、教培场景等）见 **[docs/USAGE.md](docs/USAGE.md)**。  
 具体 API 以交付文档为准。
 
 ---
 
 ## 技术支持
 
+> **所有消息均通过 [GitHub Issues](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues) 留言处理**，不设电话客服或商务邮箱。
+
 | 版本 | 支持范围 |
 |------|----------|
-| 测试版 | 文档自助 + Issue 提问（不保证响应时效） |
-| 年度授权 | 邮件支持、缺陷修复、小版本更新 |
-| 源码交付 | 含首次远程接入答疑 + 架构说明 |
+| 测试版 | 文档自助 + Issue 留言（不保证响应时效） |
+| 年度授权 | Issue 留言支持、缺陷修复、小版本更新 |
+| 源码交付 | Issue 留言 + 首次接入答疑（在本仓库 Issue 内进行） |
 
 ---
 
@@ -174,8 +181,11 @@ loti_flutter_sight_singing_plugin/
 ## 联系我们
 
 - **主体**：杭州数掌科技有限公司  
-- **GitHub Issues**：[提交购买咨询](https://github.com/loti-edu/loti-flutter-sight-singing-plugin/issues/new?template=purchase.yml) · [其他问题](https://github.com/loti-edu/loti-flutter-sight-singing-plugin/issues)  
-- **商务邮箱**：请在 Issue 中留言「购买咨询」，我们会回复最新联系方式  
+- **唯一联络方式**：[GitHub Issues 留言](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues)  
+  - [购买咨询](https://github.com/loti-flutter/loti-flutter-sight-singing-plugin/issues/new?template=purchase.yml)  
+  - [社区问答范例](docs/ISSUES_QA.md)
+
+> 无标准客服热线、无商务邮箱；付款、交付、售后、发票 **均在 Issue 跟评中处理**。
 
 ---
 
