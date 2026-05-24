@@ -1,0 +1,35 @@
+name: loti_flutter_sight_singing_plugin
+description: Loti 基于 Flutter 生态的音乐视唱插件 — MIDI 跟唱、实时音高检测与 KTV 风格打分（商业授权产品）。
+version: 0.0.1-preview
+homepage: https://github.com/loti-edu/loti-flutter-sight-singing-plugin
+repository: https://github.com/loti-edu/loti-flutter-sight-singing-plugin
+issue_tracker: https://github.com/loti-edu/loti-flutter-sight-singing-plugin/issues
+
+environment:
+  sdk: ^3.12.0
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_web_plugins:
+    sdk: flutter
+  web: ^1.0.0
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.loti.sight_singing
+        pluginClass: LotiFlutterSightSingingPlugin
+      ios:
+        pluginClass: LotiFlutterSightSingingPlugin
+      web:
+        pluginClass: LotiFlutterSightSingingPluginWeb
+        fileName: loti_flutter_sight_singing_plugin_web.dart
